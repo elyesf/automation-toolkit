@@ -4,7 +4,7 @@
 
 Small, tested automations for teams that run their sales on Google Sheets and email.
 
-In my freelance work I automate business processes for a small company: a lead pipeline from a web form into a Google Sheets CRM, follow-ups and documentation. That code belongs to the client, so this repo is **my own rewrite of the same kind of tools, with generic config and fake sample data**. No client code or data is included.
+In my freelance work I automate business processes for a small company: a lead pipeline from a web form into a Google Sheets CRM, follow-ups and documentation. That code belongs to the client, so this repo **rebuilds the lead intake idea with my own code, generic config and fake sample data**, plus a few tools that fit next to it (reminders, contact cleanup, a weekly report). No client code or data is included.
 
 **Stack:** Google Apps Script (JavaScript, V8) · Google Sheets · Python 3 · Node test runner · pytest · GitHub Actions
 
