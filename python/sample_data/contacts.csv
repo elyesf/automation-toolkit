@@ -1,0 +1,7 @@
+name,email,phone,company,updated_at
+ANNA SCHMIDT,Anna.Schmidt@Example.de,0151 234 5678,Bäckerei Klein,2026-09-01
+Anna Schmidt,anna.schmidt@example.de,,Bäckerei Klein GmbH,2026-10-02
+jonas weber,,0049 170 1112233,Autohaus Weber,2026-08-15
+Jonas Weber,jonas@weber-auto.example,+49 170 1112233,,2026-10-10
+Mira Becker,mira.becker@example.com,,Kita Sonnenschein,2026-10-05
+No Contact,not-an-email,12,Unknown Ltd,2026-10-01

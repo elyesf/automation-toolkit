@@ -1,0 +1,9 @@
+[project]
+name = "crm-tools"
+version = "0.1.0"
+description = "Clean CRM contact exports and build weekly lead reports"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
