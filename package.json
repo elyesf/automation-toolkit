@@ -1,0 +1,8 @@
+{
+  "name": "automation-toolkit",
+  "private": true,
+  "description": "Tests for the Apps Script logic",
+  "scripts": {
+    "test": "node --test apps-script/test/*.test.js"
+  }
+}
