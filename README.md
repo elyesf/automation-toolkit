@@ -8,6 +8,17 @@ In my freelance work I automate business processes for a small company: a lead p
 
 **Stack:** Google Apps Script (JavaScript, V8) · Google Sheets · Python 3 · Node test runner · pytest · GitHub Actions
 
+## Auf Deutsch
+
+Kleine, getestete Automatisierungen für Teams, die ihren Vertrieb mit Google Sheets und E-Mail steuern.
+
+- **Lead-Erfassung:** Eine Formularantwort wird zu genau einer sauberen Zeile im CRM. E-Mail-Adressen und deutsche Telefonnummern werden vereinheitlicht, bekannte Kontakte erkannt (E-Mail oder Telefon) und Anfragen nach Stichwörtern, Budget und Zeitplan kategorisiert und priorisiert. Optional hilft die OpenAI-API bei der Kategorie.
+- **Erinnerungen:** Ein täglicher Trigger markiert offene Leads ohne Aktualisierung seit 3 Tagen und schickt jedem Verantwortlichen eine E-Mail mit seiner Liste.
+- **Python-Werkzeuge:** Bereinigung von CRM-Exporten (Duplikate zusammenführen) und ein wöchentlicher Lead-Bericht als Markdown.
+- **Qualität:** Die Logik ist von den Google-Aufrufen getrennt und läuft mit automatisierten Tests in GitHub Actions.
+
+Der Code aus meiner freiberuflichen Arbeit gehört dem Kunden. Dieses Repository enthält deshalb eigenen Code mit allgemeiner Konfiguration und erfundenen Beispieldaten, keine Kundendaten. Die Anleitung zum Einrichten steht unten auf Englisch.
+
 ## What's inside
 
 ### 1. Lead intake (`apps-script/lead-intake`)
